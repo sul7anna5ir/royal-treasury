@@ -1,0 +1,104 @@
+<!doctype html>
+
+<html>
+
+<head >
+	<title >LATEY.A.M.P FORM</title>
+</head>
+<body bgcolor="red">
+<Center><p style="font-size: 11; font-display: !important; text-decoration-color: #00ff00;">LATE Y.A.M.P JUNIOUR HIGH SCHOOL</p></Center>
+	<left align><p>this is the unofficial website of late Y.A.M.P juniour high school made by me,a student dont beleive this is real webpage of the school.</p></left><hr>
+	
+	<center><p style="font: status-bar; font-size: x-large;">THE FORM BEGINS FROM HERE FILL IT WITH CORRECT INFORMATION</p></center>                       
+	
+	<form action="action_page.php" method="post">
+
+		<div>
+			<lable for="fname">first name:</lable>
+			<input type="text" id="fname" name="fname" required>
+		</div>
+		
+		<br>
+
+		<div>
+			<lable for="mname">middle name:</lable>
+			<input type="text" id="mname" name="mname">
+		</div>
+
+		<br>
+
+		<div>
+			<lable for="lname">last name:</lable>
+			<input type="text" id="lname" name="lname" required>
+		</div>
+
+		<br>
+
+		<div>
+			<lable for="class">class:</lable>
+			<select id="class" required>
+				<option value="class">select class</option>
+				<option value="class 9th">IX</option>
+				<option value="class 8th">VIII</option>
+				<option value="class 7th">VII</option>
+				<option value="class 6th">VI</option>
+				<option value="class 5th">V</option>
+				<option value="class 4th">IV</option>
+				<option value="class 3rd">III</option>
+				<option value="class 2nd">II</option>
+				<option value="class 1st">I</option>
+				<option value="UKG">UKG</option>
+				<option value="LKG">LKG</option>
+				<option value="NURSERY">Nur</option>
+			</select>
+
+			<br>
+
+			<lable for="subject" required>SUB:</lable>
+			<select id="subject" required>
+				<option value="subject">select SUB</option>
+				<option value="Mathematics">MATH</option>
+				<option value="PCB">SCIENCE</option>
+				<option value="HINDI & GRAMMAR">HINDI</option>
+				<option value="ENGLISH & GRAMMAR">ENGLISH</option>
+				<option value="IT">COMPUTER</option>
+				<option value="HISTORY OR GEOGRAPHY">SOCIAL STUDIES</option>
+				<option value="URDU">URDU</option>
+			</select>
+		</div> 
+
+		<br>
+
+		<div>
+		    <lable for="phone">mobile No.:</lable>
+			<input formmethod="number digits" id="phone" name="phone" placeholder="enter phone" name="" onkeyup="numberonly(this)" required>
+		 </div>
+
+		 <br>
+
+		 <div>
+		    <lable for="email">email:</lable>
+			<input type="text" id="email" name="email" required>
+		 </div>
+
+		<br>
+
+		<div>
+			<input type="reset">
+		</div>
+
+		<div>
+			<input type="submit">
+		</div><br><br>
+	</form><center><p style="font: inherit; text-decoration-color: darkcyan; font-size: 28;">Creator MD-Sultan Nasir Khan</p></center>
+	<script type="text/javascript">
+	    function numberonly(input)
+	    {
+		    var num = /[^0-9]/gi;
+		    input.value = input.value.replace(num,"");
+	    }
+    </script>
+
+</body>
+</html>
+
